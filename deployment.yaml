@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ducta11-kubernetes-udagram-frontend
+  labels:
+    app: ducta11-kubernetes-udagram-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ducta11-kubernetes-udagram-frontend
+  template:
+    metadata:
+      labels:
+        app: ducta11-kubernetes-udagram-frontend
+    spec:
+      containers:
+      - name: udacity-udagram-frontend
+        image: khongthequenbluestar/udacity-udagram-frontend
+        ports:
+        - containerPort: 8100
