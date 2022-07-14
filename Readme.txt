@@ -3,7 +3,7 @@ Run in GitBash:
 		source set_env.sh
 
 	2.
-		npm instal1
+		npm install
 		npm rebuild
 		npm run build
 		ionic build
