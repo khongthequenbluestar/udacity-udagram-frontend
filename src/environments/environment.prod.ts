@@ -2,12 +2,12 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-// Replace "apiHost" with the External-IP of the reverseproxy deployment
+// Replace "apiHost" with the External-IP of the udagram-frontend deployment after expose with LoadBalancer
 export const environment = {
   production: false,
   appName: 'Udagram',
   apiHost: 'http://localhost:8200/api/v0'
-  //apiHost: 'http://ae0c61849655c46e581aa91d3c03386d-513419455.us-east-2.elb.amazonaws.com:8080/api/v0'
+  //apiHost: 'http://a44bf957b196646ffac41a8af284227b-1901262689.us-east-2.elb.amazonaws.com:8200/api/v0'
 };
 
 /*
