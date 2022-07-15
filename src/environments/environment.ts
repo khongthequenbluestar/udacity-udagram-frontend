@@ -2,7 +2,7 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-// Replace "apiHost" with the External-IP of the udagram-frontend deployment after expose with LoadBalancer
+// Replace host in "apiHost" with the External-IP of the "ducta11-kubernetes-udagram-public-reverseproxy-svc" service after expose with LoadBalancer
 export const environment = {
   production: false,
   appName: 'Udagram',
