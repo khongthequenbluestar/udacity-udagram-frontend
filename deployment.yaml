@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: udacity-udagram-frontend
-        image: khongthequenbluestar/udacity-udagram-frontend
+        image: khongthequenbluestar/udacity-udagram-frontend:latest
         ports:
         - containerPort: 8100
